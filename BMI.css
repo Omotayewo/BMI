@@ -1,0 +1,68 @@
+.main{
+	text-align: center;
+	margin: 150px 40px 0px 40px;
+	border: 3px groove white;
+	border-radius: 3%;
+	padding: 20px;
+}
+input[type=number] {
+	background: #bbb;
+	padding: 6px;
+	border: none;
+	color: black;
+}
+button{
+	border: none;
+	padding: 8px;
+	color: black;
+	background: hsl(227, 40%, 60%);
+}
+button:hover{
+background: blue;
+}
+span{
+	font-size: 20px;
+}
+p{
+	font-size: 12px;
+}
+::placeholder{
+	color: black;
+	font-family: Calibri;
+	letter-spacing: 2px;
+	font-size: 10px;
+}
+body{
+	background: linear-gradient(150deg, orange, magenta);
+	background-position: center;
+	background-size: cover;
+	background-repeat:no-repeat;
+}
+html{
+	min-height: 100%;
+}
+@media screen and (min-width: 480px) {
+	.main{
+		padding: 50px;
+		margin: 600px 300px 0px 300px;
+		font-size: 30px;
+	}
+	input[type=number] {
+		padding: 20px;
+	}
+	::placeholder{
+		font-size: 13px;
+		letter-spacing: 2.5px;
+	}
+	button{
+		padding: 10px;
+		font-size: 15px;
+		color: white;
+	}
+	p{
+		font-size: 17px;
+	}
+	#met{
+		font-size: 15px;
+	}
+}

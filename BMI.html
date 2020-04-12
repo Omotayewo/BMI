@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" intial-scale="1.0">
+		<link rel="icon" href="/storage/emulated/0/Download/calculator.png">
+		<link rel="stylesheet" type="text/css" href="/storage/emulated/0/BMI.css">
+		<script type="text/javascript" src="/storage/emulated/0/BMI.js"></script>
+		<title>BMI Calculator</title>
+	</head>
+	<body>
+		<form onsubmit="return false">
+		<div class="main">
+			<h2>BMI Calculator</h2>
+			<label for="tall"></label>
+				<input type="number" id="tall" placeholder="Enter your height(cm)" step=".1" min="40" required><br><br>
+			<label for="fat"></label>
+				<input type="number" id="fat" placeholder="Enter your weight(kg)" step=".001" min="2" required><br><br>
+			<button id="cod" onclick="computeBmi()">Calculate</button>
+			<p id="met"></p>
+			<p><span>BMI Weight Guide</span><br><br>
+			Under Weight=Less than 18.6<br>
+			Normal Range=18.6-24.9<br>
+			Overweight=Greater than 24.9</p>
+		</div>
+		</form>
+	</body>
+</html>
